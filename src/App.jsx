@@ -1,28 +1,23 @@
-import './App.css'
+import React from 'react';
+import './App.css';
 
-export function App () {
-    return (
-        <article className = 'tw-followCard'>
-            <header className = 'tw-followCard-header'>
-                <img
-                className = 'tw-followCard-avatar'
-                alt = "avatar" src="https://unavatar.io/sindresorhus@gmail.com"></img>     
-                <div>
-                    <strong>Manolo</strong>
-                    <span>@hola</span>
-                </div>
+function App() {
+  const backgroundImage = {
+    backgroundImage: `url(${process.env.PUBLIC_URL}/fondoWeb3.jpg)`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    minHeight: '100vh',
+  };
 
-            </header>
-
-            <aside>
-                <button className = 'tw-followCard-button'>
-                    Seguir  
-                </button>
-            </aside>       
-        </article>
-
-
-
-
-    )
+  return (
+    <body className="App" style={backgroundImage}>
+      <div className="Right_div">
+        <h1>Tu Título</h1>
+        <p>este es mi parrafo que estoy escribiendo en este momento</p>
+      </div>
+    </body>
+  );
 }
+
+export default App;
