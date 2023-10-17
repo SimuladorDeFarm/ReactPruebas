@@ -1,13 +1,82 @@
 .App {
-  text-align: left;
+  text-align: center;
 }
 
 .Right_div {
-  width: 600px; /* ancho */
+  width: 70%; /* ancho */
   margin: 0 auto; /* Establece la altura del div según tus necesidades */
-  height: 800px; /*largo vertical*/
+  height: 1000px; /*largo vertical*/
     background-color: white; /* Cambia el color de fondo según tus necesidades */
   /*margin-left: auto; /* Mueve el div a la derecha dentro del contenedor */
   color:black; /*color letra*/
   text-align: center;
+  margin-top: -25px;
+}
+
+.BarraLinks {
+
+  width: 100%; /* ancho */
+  margin: 0 auto; /* Establece la altura del div según tus necesidades */
+  height: 50px; /*largo vertical*/
+    background-color: burlywood; /* Cambia el color de fondo según tus necesidades */
+  /*margin-left: auto; /* Mueve el div a la derecha dentro del contenedor */
+  color:black; /*color letra*/
+  text-align: center;
+  margin-bottom: 25px;
+  
+}
+
+.cabecera{
+
+  width: 100%; /* ancho */  
+  height: 100px; /*largo vertical*/
+  background: linear-gradient(to bottom, #a3d171, #2e501d);
+  margin-bottom: -25px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px; /* Puedes ajustar el valor según la cantidad de redondez que desees */
+
+}
+
+.img-cabecera { /*imagen juan carlos*/
+
+  flex: 1; 
+  height: 100px; /*largo vertical*/
+  /*background-color: blue; /* Cambia el color de fondo según tus necesidades */
+  color:black; /*color letra*/ 
+  margin-bottom: -25px;
+  padding: 0;
+  
+  
+
+  
+}
+
+.mi-imagen {
+
+  width: 75px; /* Ajusta el ancho según tus necesidades */
+  position: absolute;
+  left: 50px; /* Mueve la imagen 50 píxeles hacia la derecha */
+  top: 0px; /* Mueve la imagen 20 píxeles hacia abajo */
+    
+}
+
+.titulo {
+
+  flex: 1;  
+  color: white;
+  /*background-color: red; /* Cambia el color de fondo según tus necesidades */
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  
+}
+
+.button1{
+
+  position: absolute;
+  left: 100px;
+  bottom: 570px;
+
+
 }
